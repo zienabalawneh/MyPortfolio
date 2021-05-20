@@ -48,12 +48,12 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href="https://twitter.com/creativetim"
+                  href="https://www.linkedin.com/in/zienabalawneh/"
                   id="tooltip475038074"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
+                    <i class="fa fa-linkedin" />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
@@ -62,7 +62,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://web.facebook.com/profile.php?id=100012007565206"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -73,7 +73,7 @@ class SimpleFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
                 </UncontrolledTooltip>
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
@@ -81,16 +81,16 @@ class SimpleFooter extends React.Component {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-dribbble" />
+                    <i class=" fa fa-linkedin"/>
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/zienabalawneh"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -104,7 +104,7 @@ class SimpleFooter extends React.Component {
               </Col>
             </Row>
             <hr />
-            <Row className=" align-items-center justify-content-md-between">
+            {/* <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
@@ -153,7 +153,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                 </Nav>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
         </footer>
       </>
